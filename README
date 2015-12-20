@@ -1,0 +1,56 @@
+Swiss Radio Player
+------------------
+
+Swiss Radio Player is the online radio player powering all major Swiss
+radio stations. We have packed the JavaScript-powered online application
+into a web app for Ubuntu Touch devices.
+
+This web app is not affiliated with the producers of Swiss Radio Player.
+No infringement is intended. We do not even know who created the player,
+which is hosted on Amazon AWS, because this information is well hidden.
+
+License
+-------
+
+Swiss Radio Player Web App for Ubuntu Touch devices
+Copyright (C) 2015  Peter Bittner <django@bittner.it>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Support
+-------
+
+Source code:
+- https://github.com/bittner/swiss-radio-player
+
+Issue tracker:
+- https://github.com/bittner/swiss-radio-player/issues
+
+Development
+-----------
+
+Ubuntu developer information on Webapps
+- https://developer.ubuntu.com/en/web/
+
+Introductory guide on Ubuntu Webapps
+- https://developer.ubuntu.com/en/web/ubuntu-webapps-guide/
+
+Ubuntu Webapps tutorials
+- https://developer.ubuntu.com/en/web/tutorials/
+
+Build and publish the .click package manually, without Ubuntu SDK:
+- Install `click` on your developer machine (`sudo apt-get install click`)
+- Make sure you have bumped the version number in `manifest.json`
+- `cd` into the project repo folder and build the package (`click build .`)
+- Upload the created .click file at https://myapps.developer.ubuntu.com

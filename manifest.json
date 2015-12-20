@@ -1,0 +1,15 @@
+{
+    "name": "swiss-radio-player.peter-bittner",
+    "description": "The online radio player powering all major Swiss radio stations.",
+    "architecture": "all",
+    "title": "Swiss Radio Player",
+    "hooks": {
+        "swiss-radio-player": {
+            "apparmor": "swiss-radio-player.apparmor",
+            "desktop": "swiss-radio-player.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Peter Bittner <django@bittner.it>",
+    "framework": "ubuntu-sdk-15.04"
+}
