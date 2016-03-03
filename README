@@ -5,6 +5,8 @@ Swiss Radio Player is the online radio player powering all major Swiss
 radio stations. We have packed the JavaScript-powered online application
 into a web app for Ubuntu Touch devices.
 
+Now even plays music when in the background, and when the screen is locked.
+
 This web app is not affiliated with the producers of Swiss Radio Player.
 No infringement is intended. We do not even know who created the player,
 which is hosted on Amazon AWS, because this information is well hidden.
@@ -13,7 +15,7 @@ License
 -------
 
 Swiss Radio Player Web App for Ubuntu Touch devices
-Copyright (C) 2015  Peter Bittner <django@bittner.it>
+Copyright (C) 2015-2016  Peter Bittner <django@bittner.it>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
